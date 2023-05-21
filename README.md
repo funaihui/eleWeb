@@ -19,6 +19,11 @@
 docker run -itd --name eleWeb -p 8080:8080 -v $PWD/eleWeb:/root/eleWeb --restart=unless-stopped jackytj/eleweb
 ```
 
+#### 一键升级命令
+```shell
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower -cR eleWeb
+```
+
 **注意📢** **注意📢** **注意📢**
 
 启动失败是因为没有正确配置config.json文件，config.json文件位置在用户目录下的eleWeb文件夹下，配置后重新启动容器即可。
