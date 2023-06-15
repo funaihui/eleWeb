@@ -37,7 +37,7 @@ at Module•-sompile (pkB/prelude/bootstrap. j5:1930:22)
 at Module:_extensions..js (node sinternal/modules/cjs/loader :1166:10)
 ```
 
-出现上面的错误，解决方法是青龙 url 后加`\`。
+出现上面的错误，解决方法是青龙 url 后加`/`。
 
 - 启动成功却访问不了
 
