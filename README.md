@@ -8,7 +8,7 @@
 | hostname      | 青龙地址                           | http://baidu.com:8080/ |
 | client_id     | 青龙key                            | 123                    |
 | client_secret | 青龙secret                         | 123                    |
-| name          | 环境变量名称                       | ELE_COOKIE             |
+| name          | 环境变量名称                       | elmck             |
 | disabled      | 是否禁用`true:禁用，false：不禁用` |                        |
 | carmi         | 卡密                               |                        |
 
