@@ -8,7 +8,7 @@
 | hostname      | 青龙地址                           | http://baidu.com:8080/ |
 | client_id     | 青龙key                            | 123                    |
 | client_secret | 青龙secret                         | 123                    |
-| name          | 环境变量名称                       | ELE_COOKIE             |
+| name          | 环境变量名称                       | elmck             |
 | disabled      | 是否禁用`true:禁用，false：不禁用` |                        |
 | carmi         | 卡密                               |                        |
 
@@ -37,7 +37,7 @@ at Module•-sompile (pkB/prelude/bootstrap. j5:1930:22)
 at Module:_extensions..js (node sinternal/modules/cjs/loader :1166:10)
 ```
 
-出现上面的错误，解决方法是青龙 url 后加`\`。
+出现上面的错误，解决方法是青龙 url 后加`/`。
 
 - 启动成功却访问不了
 
