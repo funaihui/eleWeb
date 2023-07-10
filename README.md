@@ -16,9 +16,9 @@
 
 ### 使用说明
 
-#### 一键Docker部署命令[（网友提供）](https://hub.docker.com/r/jackytj/eleweb)
+#### 一键Docker部署命令
 ```shell
-docker run -itd --name eleWeb -p 8080:8080 -v $PWD/eleWeb:/root/eleWeb --restart=unless-stopped jackytj/eleweb
+docker run -itd --name eleWeb -p 8080:8080 -v $PWD/eleWeb:/root/eleWeb --restart=unless-stopped pingxingsheng/eleweb
 ```
 
 #### 一键升级命令

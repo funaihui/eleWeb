@@ -6,5 +6,7 @@
     "name": "",
     "disabled": false,
     "carmi":"",
+    "appToken":"",
+    "masterUid":"",
     "announcement": "登录有效期为3天，记得按时登录"
 }
